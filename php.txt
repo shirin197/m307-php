@@ -19,7 +19,7 @@ varaibles:
 creat a varable named (txt) and assign the (value) 
 $txt = "Hello";
 sum out the varibale x and y
-$x = 5;
+$x = 5;s
 $y = 7;
 echo $x + $y;
 
@@ -35,68 +35,4 @@ Replace the word "World" with the word "Dolly".
 
 $oldtxt = "hello world");
 $newtxt = str_replace("World", "Dolly", $oldtxt)
-
-Editor: -
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>"my first PHP page"</h1>
-
-<?php
-echo "Hello World!<br>";
-?> 
-
-<?php
-$color = "red";
-echo "My car is " . $color . "<br>";
-?> 
-
-<?php
-// You can also use comments to leave out parts of a code line
-$x = 5  + 15  + 5;
-echo $x; //out print fromt the value 5 etc
-?>
-
-</body>
-</html>
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-Tagesablauf
-------------
-Überblick: Analyse der Modul-Beschreibung, Ziele, Inhalt und Ablauf
-- Anforderunge genauer durchlesen
-
-Leistungsbeurteilung, Prüfungstermine und Prüfungsart (LBV Modul 307-2)
-- LB genau anforderung auf ICT Website
-
-HTML-Repetition 1
-- auf LearningApps.org html repetiert
-- repetition von verschiednen HTML Elementen (l1:https://learningapps.org/8296816 / l2:https://learningapps.org/2204190)
-- screenshots von den Übungen und lösungen auf dem Worddokument : php.txt
-
-
-Serverseitige Programmierung, Infoblock
-- Einfaches Hello World im WebBrowser ausgeben
-- pfad beachten
-  -> Übungen 1-3 evtl aucgh zusatz gemacht
-  -> td und tr genauer anschauen
-- Infoblock mit PPP -> auch Nummern für ins Buch
-
-Die Sprache PHP, Infoblock
-- Infoblock mit PPP -> auch Nummern für ins Buch
-
-Zusammenspiel PHP/HTML, Infoblock und Übungen
-
-Bildergalerie, Übung
-
-
-Am Abend Lernen
----------------
-- mind 2h Lernjournal schreiben
-- php 1h anschauen 
-
-
-
-
-
 
