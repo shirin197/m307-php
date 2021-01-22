@@ -1,0 +1,43 @@
+PHP - 22.01.2021
+----------------
+Tages Ablauf:
+
+- Modul-Repetition 1
+  auf LearningApps.org repetiert (Bild AUF dok)
+  zuerst etwas probleme aber sonst gut:)
+
+- HTML-Formulare, Infoblock und Übung
+  einfaches Formular erstellen 
+  ganz gut gegangen evt noch schöner machen 
+
+- Formulare mit PHP auswerten, Infoblock und Übungen
+
+- Client-Server-Interaktion
+
+- Auswahlelemente, Infoblock und Übungen
+- formular.php
+  - formular_auswerten (pdf dazu)
+  - formular.html
+  - formular fläche - fläche berechnen
+  - fläche_post
+  - fläche_post_self
+  - auswahlelemente-> ausgaben von verschiedenen auswahlelement
+radiobutton ->
+BEISPIELE EMAIL:
+ <p><label>E-Mail-Adresse : <input type="email" name="emailadresse" autofocus></label></p>	
+BEISPIEL SPRACHE:	
+<fieldset>
+   <legend>Sprache</legend>
+	<label>
+	<input type="radio" name="sprache" value="deutsch">Deutsch
+	</label>
+</fieldset>
+zweite radiobutton-gruppe, auswahlliste -> aufgaben stellung auf (pdf)
+  
+
+- Barrierefreiheit, Grundlagen und Validierung
+
+- Formularelemente für spezielle Daten, Infoblock und Übung
+  html seite erstellt und die formular elemente erstellt
+  danach in verschiednen browser und handys angeschaut und verglichen
+  
