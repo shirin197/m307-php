@@ -1,0 +1,81 @@
+Buch NOTIZEN
+--------------
+Wie funktionierts:
+(Buch Seite 2; Abb. 1-1)
+Serverseitig:
+- heisst, dass der PHP-Code nicht aif dem Client(Browser), ausgeführt wird sondern auf den Server.
+Kommunikation im Internet bei statischen HTML-seiten ohne PHP:
+- Browser als Webclient -> Anfrage (REQUEST) an den Server (Webserver-Software) nach der Datei. 
+- Server liefert als Antwort (RESPONSE) diese Datei and den Browser, der sie dann darstellt.
+
+Mit PHP:
+ 1. Sufer gib eine Adresse ein. Der Browser leitet den REQUEST and den Webserver weiter.
+ 2. Bei der angeforderten Seite handeltes sich disemal um ein PHP-SCRIPT. Der Server erkennt die Endung .php. Desswegen wird die Seite
+    auf ein Programm - bei PHP dem PHP-Praser übergeben, nicht an Broswer (Client).
+ 3. Die PHP-Befehle werden vom Praser intepretiert und es wird eine neue HTML-Seite erzeugt.
+ 4. Die HTML-Seite wird and en Browser zurückgesendet.  Die angezeigte Seite heisst zwar och xy.php, aber enthält keinen PHP-Code, sondern nur 
+    HTML-Code.
+- PHP steht für -> PHP Hypertext Preprocessor
+
+
+Ablauf von Donnerstag 21.01.2021
+-------------------------------------
+- Repetition severseitige Programmierung
+  kurz ein paar Folien angeschaut und nochmals repetiert
+
+- HTML-Repetition 2
+  zewi Übungen (auf Word DOK) zufinden 
+
+- Arrays, Selbststudium und Übungen
+  PDF mit aufgaben und Buch
+
+ 1. Grundlagen, Selbststudium
+Lesen Sie im Lehrmittel über das Programmieren von indizierten Arrays Kapitel				 4.7 - 4.7.1
+
+2 Indiziertes Array mit for-Schleife, Übung								Kapitel 4.7.2
+Erstellen Sie das folgende Script:
+- Erstellen eines Arrays mit den Jahreszahlen 2019, 2020 und 2021
+- Ausgeben der Array-Werte mit einer for-Schleife 
+
+3 Indiziertes Array mit foreach-Schleife, Übung
+Geben Sie die Array-Werte der vorherigen Übung zusätzlich mit einer foreachSchleife aus. 
+
+4 Funktion range() und Testausgaben, Übung								Kapitel 4.7.2
+- Array von Jahreszeiten 2018 bis 2021 -> unktion range() verwenden
+- Ausgabe mit echo . Funktioniert das? JA/NEIN?
+- Arrays asuegen mit der Funktion print_r()
+- Arrays asuegen mit der Funktion var_dump()
+- Ausgeben der Array-Werte mit einer foreach-Schleife (zum Vergleichen der verschiedenen
+  Ausgaben) 
+
+5 Sortier-Funktionen, Selbststudium
+Lesen Sie im Lehrmittel über das Sortieren von indizierten Arrays. 					Seiten 163-165
+
+6 Indiziertes Array durchmischen, Übung
+Erstellen Sie ein neues Script:
+- Erstellen eines indizierten Arrays mit mindestens 8 Ortsnamen
+- Ausgeben der Werte (Ortsnamen)
+- Mischen der Werte mittels der Funktion shuffle() und erneutes Ausgeben 
+
+7 Indiziertes Array sortieren, Übung									???
+Erweitern Sie das Script wie folgt:
+- Sortieren der Werte und erneutes Ausgeben 
+
+- Kurz den Code von ihm besprochen  (lösungsbeispiele)
+
+Neue Aufgaben PDF Assoziative Arrays
+
+
+- Bildergalerie mit Arrays optimieren, Zusatzübung
+  - Zusatzübung nicht gemacht aber durch gelesen
+
+- Witzweb mit der Navigation in einem Array, Übung
+
+
+
+Am Abend
+---------
+- Buch nachführen
+- Lernjournal
+- PAP fertigstellen
+
