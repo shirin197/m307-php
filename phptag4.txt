@@ -3,15 +3,81 @@ PHP - 27.01.2021
 Tages Ablauf:
 
 - Formularelemente clientseitig validieren, Infoblock und Übung
-
+----------------------------------------------------------------------------------------------------------------------------------------------
 - Cross Site Scripting, Infoblock und Übung
+2.
+	Eingegeben im Feld Vornamen. Erklärung: dieser HTML Code wird als HTML gelesen und führt den Befehl aus.
+			<style>body{display:none;}</style>
+	Der Body wird angesprochen und führt den Befehl: {display:none;} aus also style wird weggelassen(keine Ausgabe)
+3.
+	Eingegeben im Code selber strip_tags 
+	im Code: echo '<p>Vorname: ' . strip_tags($_GET['vorname']);
+	Dann mussten wir wieder den Befehl von vorher eingeben. Das Resultat ist, dasss beim Auswerten der Befehl ausgegeben wird.
+	res: Vorname: body{display:none;}
+4
+	Eingegeben im Code selber htmlspecialchars
+	im Code: echo '<p>Nachname: ' . htmlspecialchars($_GET['nachname']);
+	Dann mussten wir wieder den Befehl von vorher eingeben. Das Resultat ist, dasss beim Auswerten der Befehl ausgegeben wird.
+	res: Nachname: <style>body{display:none;}</style>
 
+5 Erkenntnis:
+- strip_tags und htmlspecialchars() wehren den Angriff ab.
+- Sorgen Sie vor und schenken Sie den Usereingaben grundsätzlich kein Vertrauen.
+
+	Säubern Sie jede Formularfeld-Eingabe!
+	Always sanitize your inputs!
+
+6. Weitere Angriffe zm Ausprobieren
+Angriffe
+	<script>alert('Attacke!')</script>
+	<script>location.replace('http://www.sbb.ch')</script>
+	<script>document.querySelector('h1').innerHTML = 'Diese Seite wurde gehackt!';</script> 
+
+----------------------------------------------------------------------------------------------------------------------------------------------
 - Barrierefreiheit, Grundlagen und Validierung
+PDF Dokument hier noch ganz Kopiert mit Links etc. :
+Grundlagen
+	http://www.access-for-all.ch/ -> Barrierefreiheit
+- Checkliste
+	http://www.access-for-all.ch/images/stories/docs/AccessibilityChecklist_v010.pdf
+- Erklärungen mit konkreten Lösungshinweisen
+	http://www.access-for-all.ch/images/stories/docs/AccessibilityChecklistErklaerungen_v010.pdf
 
+Auf Barrierefreiheit testen
+- WAVE - web accessibility evaluation tool
+	 http://wave.webaim.org/
+
+----------------------------------------------------------------------------------------------------------------------------------------------
 - Formulardaten serverseitig per E-Mail versenden, Infoblock und Übung
+Wi mussten ein Formular nach Vorgaben im HTML nachmachen. Dabei hatten wir verschiedne Bedingungen, wie z.B Methode Post verwenden.
+erstellte Formulare:
+formulare.html
+formsend.php
+Dann mussten wir das PHP-Script mit der Funktion mail() ergänzen, um die eingegebenen Daten verschicken zu können. Benötigt haben wir dazu FileZilla
+(webpubli.ch) um einen Server zu haben über den das ganze läuft.
+Mail() Funktion:
+ 	mail('empfänger mail eigneben',
+	'Bestellung Informationsmaterial',
+	'Der ganze Inhalt der E-Mail',
+	"From: info@domain.ch\r\nContent-type:
+	text/plain; charset=UTF-8",
+'	-finfo@domain.ch');
 
+----------------------------------------------------------------------------------------------------------------------------------------------
 - Bedingungen, Trainings-Sequenz
+nochmal wiederholung von Bedingungen
 
+----------------------------------------------------------------------------------------------------------------------------------------------
 - Client-Server-Interaktion
+Aufgabe
+Sie haben bereits ein Formular erstellt und das Script formsend.php geschrieben, welches eine Bestätigungsseite anzeigt und die Daten serverseitig per E-Mail versendet.
+Sie müssen jenes Formular nun serverseitig validieren. Pflichtfelder sind der Name, der Vorname, die
+E-Mail-Adresse und die zu bestellenden Informationen. Der Newsletter ist kein Pflichtfeld. 
 
+----------------------------------------------------------------------------------------------------------------------------------------------
 - Formulardaten serverseitig validieren (sticky form), Infoblock und Übung
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+Home:
+- Lernjournal (evtl)
+- Buchnachführen
