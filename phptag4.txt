@@ -1,0 +1,17 @@
+PHP - 27.01.2021
+----------------
+Tages Ablauf:
+
+- Formularelemente clientseitig validieren, Infoblock und Übung
+
+- Cross Site Scripting, Infoblock und Übung
+
+- Barrierefreiheit, Grundlagen und Validierung
+
+- Formulardaten serverseitig per E-Mail versenden, Infoblock und Übung
+
+- Bedingungen, Trainings-Sequenz
+
+- Client-Server-Interaktion
+
+- Formulardaten serverseitig validieren (sticky form), Infoblock und Übung
