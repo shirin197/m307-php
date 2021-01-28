@@ -1,0 +1,31 @@
+PHP 28.01.2021
+----------------
+Tages Ablauf:
+
+wir haben den ganzen tag an einem Auftrag gearbeietet.
+Valdidierung
+
+Dateien:
+_ServerSValidierung
+    bestellformular.html
+    form.php
+    formsend.php
+------------------------------------------------------------------------------------------------------------------------------------------------------
+- Client-Server-Interaktion bei der serverseitigen Validierung, Infoblock
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+- // Formulardaten serverseitig validieren (sticky form), Übung
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+- HTML-Formulare, Repetition
+ - auf https://learningapps.org/display?v=p9j8610qk20
+   repetition von Formular-Elemente
+------------------------------------------------------------------------------------------------------------------------------------------------------
+- Gruppenarbeit 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Home:
+- (Buchnachführen)
+- Modul 100 Lernen
+- Für LB1 Mo
+dul 307 Lernen
