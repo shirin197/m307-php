@@ -1,0 +1,45 @@
+PHP 29.01.2021
+--------------
+Selbststudium:
+In den folgenden 5 Schritten, die wir dir bereits im Beispiel gezeigt haben, erklären wir dir ausführlich, wie du in deiner Fallstudie vorgehen kannst:
+
+Forschungsziel festlegen
+Fall auswählen
+Passende Literatur & Theorie finden
+Fall schildern
+Fall analysieren
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Tages Ablauf:
+
+Formulardaten serverseitig validieren (sticky form), Beispiellösungen präsentieren (Gruppenarbeit)
+1. Lösung/ Gruppe 1: Sarah, Gayathiri, Nuha
+2. Lösung/ Gruppe 2: Dennis, Loic, Noel.F
+3. Lösung/ Gruppe 3: Tim, Moritz, Phillip
+3. Lösung/ Gruppe 4: Nadina, Noel.S, Parwiz
+
+Die beiden letzten Gruppen haben genua die gleiche Lösungvariante, 3, ist einfach am schwierigsten.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Formulardaten serverseitig validieren, Applikation optimieren
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Leistungsbeurteilung, Element 1: Praktische Prüfung auf Papier im Stile einer Fallstudie
+
+Planen eines Webformulars inkl. der entsprechenden Verarbeitung.
+
+Gruppenarbeit oder Einzelarbeit (Freiheit des/der Autors/in der LB)
+Hilfsmittel	Alle Kursunterlagen
+Bewertung	Skizze
+Formularfeld-Typen
+Formularfeld-Namen
+vorgesehene Verarbeitung
+
+Praxisbezug	Entspricht einer alltäglichen Arbeit im Rahmen der Planung von neuen Webapplikationen oder von Erweiterungen.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Bilder für Webseiten, Repetition
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Admin-Tool zur Bildergalerie, Bilder löschen, Infoblock und Übung
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Admin-Tool zur Bildergalerie, Bilder hochladen, Infoblock und Übung
