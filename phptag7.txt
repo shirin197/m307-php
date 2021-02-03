@@ -1,37 +1,84 @@
 PHP 03.02.2021
 --------------
 Selbststudium:
-
+- nicht notiert
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 Tages Ablauf:
 
 Besprechen der Leistungsbeurteilung, Element 1
-
-
+33 von 43 Punkten erreicht/ dumme Fehler
+Note. 4.48
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 Admin-Tool zur Bildergalerie, Bilder hochladen und Thumbnails erstellen, Beispiellösung besprechen
-
-
+- Fertig shcreiben das Gallerie hochladen funktioniert
+- Datei kann zwar hochgeladen werden, zeigt aber nur Dateiname an und nicht das Bild.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 Testen von dynamischen Webseiten, Infoblock und Übung in Gruppenarbeit
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 Testen von dynamischen Webseiten, Präsentationen der Gruppenarbeiten
-
+wier msusten in Gruppen Testfragen erstellen und aufschreiben. Diese wurden dann anschliessich im Plenum präsentiert
+und besprochen.
+Gruppe 1.
+Noel.F, Noel.S, Parwiz, Pillip
+Gruppe 2.
+Tim, Moritz, Nadina
+Gruppe 3.
+Gayathiri, Nuha, Sarah
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 HTML-Repetition 3
-
+https://learningapps.org/8929374
+Lösugn au zusatz Dokument.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 Datenbankzugriff mittels PHP und MySQL, Infoblock
-
+//Datenbankzugriff und AJAX mit PHP
+- Infos über die Entstehung: MySQL und MariaDB
+- Repetition von Server-seitige Programmierung mit PHP
+- MySQL-API (Application Programming Interface)
+- PHP Data Objects, PDO
+- Unterstützte Datenbank-Systeme -> auflistung
+- Datenbank-Verbindungs-Objekt instanzieren
+  Beispiel
+- Verbindung schliessen
+- SELECT: Daten abfragen
+- Array-Typ für die abgefragten Datensätze festlegen
+-SELECT: Daten auswerten
+  Beispiel 1 
+  SELECT: Daten auswerten -> Ablauf
+  Beispiel 2
+  Beispiel 3
+- Speicher freigeben$
+- DB-Zugriff, Empfehlungen
+- Fehlermeldung beim Debugging anzeigen
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 phpMyAdmin, SQL-Script laden: Übung
-
+- Geführte Übung 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 Bücherliste, Übung
+Erstellen Sie eine kleine Applikation, welche die Daten aus der Datenbank-Tabelle buch anzeigt.
 
+1. Legen Sie auf dem MariaDB-Server die Datenbank buecher an.
+
+2. Laden Sie das Script buch.sql.
+
+3. Erstellen Sie ein PHP-Script, das die Daten der Tabelle buch anzeigt: 
+Initialisieren Sie die Variablen mit den Zugangsparametern für den Zugriff auf den Datenbank-Server.
+› Setzen Sie den DSN-String zusammen.
+› Instanzieren Sie ein PDO-Objekt für die Verbindung zum Datenbank-Server.
+- new PDO()
+› Führen Sie die Datenbank-Abfrage aus. Weisen Sie den Rückgabewert einer Variablen zu (den Objektverweis
+auf das PDOStatement-Objekt mit der Ergebnistabelle, welche die abgefragten Datensätze enthält).
+- query-Methode, Rückgabewert zuweisen
+› Schliessen Sie die Verbindung zum Datenbank-Server nach der Abfrage wieder.
+- dem PDO-Objekt NULL zuweisen
+› Öffnen Sie eine HTML-Tabelle.
+- table-Element und eine Zeile mit den Spaltentiteln
+› Gehen Sie mit einer Schleife durch die Ergebnistabelle im PDOStatement-Objekt, holen Sie die einzelnen Datensätze mit der fetch-Methode und generieren Sie für jeden Datensatz eine vollständige HTML-Tabellenzeile.
+› Schliessen Sie die HTML-Tabelle.
+
+4. Testen Sie die Applikation.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-
+Beschreibung Leistungsberuteilung 2 für -< Morgen Donnerstag 4-2-2021
 Leistungsbeurteilung 2 vorgaben:
 Teil	2
 Gewichtung		70%
