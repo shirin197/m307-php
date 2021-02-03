@@ -1,0 +1,49 @@
+PHP 03.02.2021
+--------------
+Selbststudium:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Tages Ablauf:
+
+Besprechen der Leistungsbeurteilung, Element 1
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Admin-Tool zur Bildergalerie, Bilder hochladen und Thumbnails erstellen, Beispiellösung besprechen
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Testen von dynamischen Webseiten, Infoblock und Übung in Gruppenarbeit
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Testen von dynamischen Webseiten, Präsentationen der Gruppenarbeiten
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+HTML-Repetition 3
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Datenbankzugriff mittels PHP und MySQL, Infoblock
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+phpMyAdmin, SQL-Script laden: Übung
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Bücherliste, Übung
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Leistungsbeurteilung 2 vorgaben:
+Teil	2
+Gewichtung		70%
+Richtzeit (Empfehlung)	1
+Element-Beschreibung	Realisieren eines einfachen Formulars inkl. der entsprechenden Validierung.
+			Einzelarbeit
+Hilfsmittel	Alle Kursunterlagen
+Bewertung	Formular (HTML)
+		Validierung
+		Sicherheit
+		Korrekturformular
+
+
+
+Bestätigungsseite
