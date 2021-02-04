@@ -1,0 +1,61 @@
+PHP 04.02.2021
+--------------
+Tages Ablauf:
+Bücherliste, Übung
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Admin-Tool zur Bücherliste, Übung
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Zugangsparameter in einer separaten Datei, Infoblock und Übung
+Infoblock:
+- Mehr Komfort und Sicherheit
+- Zugangsparameter in einem separaten Verzeichnis
+
+Aufgabe:
+1. Zugangsparameter in separatem Verzeichnis
+- Zuerst mussten wir im Bücherliste-Projekt ein Unterverzeichnis erstelllen und diese include oder inc nennen.
+  In diesem mussten wir eine Datei erstellen. In dieser mussten wit Zugangsparameter für die Datenbank, den Datenbanknamen
+  und den Tabellennamen initialisieren. 
+  Vor dem Testen mussten wir das Script, das die Bücherliste anzeigt, in die Datei einbringen und dann die Applikation testen.
+
+2. Separate Datei für das Verbinden zur Datenbank 
+- Zuerst mussten wir wieder eine Datein erstellen im include-Verzeichnis, nennen mussten weir diese connect.php.
+  Für die Verbidnung mit der Datenbank mussten wir den Code Ausschneiden und in diese neue Datei.
+  Dann den Code im Script einbinden, das die Bücherliste anzeigt, ein. Den Rest löschen. Am Ende die Applikation testen.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Leistungsbeurteilung, Element 2: Praktische Prüfung
+Leistungsbeurteilung 2 vorgaben:
+Teil	2
+Gewichtung		70%
+Richtzeit (Empfehlung)	1
+Element-Beschreibung	Realisieren eines einfachen Formulars inkl. der entsprechenden Validierung.
+			Einzelarbeit
+Hilfsmittel	Alle Kursunterlagen
+Bewertung	Formular (HTML)
+		Validierung
+		Sicherheit
+		Korrekturformular
+		Bestätigungsseite
+- Recht gut Verlaufen. Fehlverständniss hat mir am Anfang etwas Zeit gekostet. Danach ein gutes Formular. Unexpectet.... Error Meldung nicht behoben, 
+Code gut konnte aber nicht getestet werden (nicht richtig)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Datenbankzugriff mit PHP und MySQL/MariaDB, Fehlersuche
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Admin-Tool zur Bücherliste, Übung, Teilaufgaben 1 bis 3
+1. Erstellen von einer HTML-Datei mit vier Links, um eine Navigation zu erstellen und auf die jeweiligen seiten zu verlinken.
+2. Erstellen Sie nun das Script anzeigen_admin.php.
+   Dann mussten wir eine Kopie des Scripts buch.php machen und nach dem Titel in die Navagtion einbinden.
+3. Erstellen Sie nun das Script erfassen.php.
+  Hier mussten wir ein Formular ersetllen, dass nach den Titel und Navigation angezeigt wird.In dem kam man die Daten für ein Buch eingeben.
+  Wenn er den Speichern-Button klickt. Dabei wird in derDatenbank ein neuer Datensatz mit den eingegebenen Daten angelegt (INSERT-Statement). 
+  Es wird wieder das leere Formular angezeigt, sodass ein weiteres Buch erfasst werden kann.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Datenbankzugriff mit PHP und MySQL/MariaDB, Repetition 1
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Admin-Tool zur Bücherliste, Übung, Teilaufgaben 4 bis 6
