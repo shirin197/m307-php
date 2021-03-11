@@ -1,0 +1,48 @@
+10.03.2021
+----------
+
+
+
+
+11.03.2021
+----------
+1. JavaServerpages
+Die JavaServer Pages Technologie (kurz JSP) ermöglicht das einfache Generieren einer dynamischen HTML-Seite. Java Server Pages haben die Dateiendung .jsp
+- Sie haben HTML-Code sowie einige Blöcke mit Java-Code.
+- alle Klassen der Java-Packages können verwendet werden
+- mit Standardvariablen können Objekte verschiedener Servlet-Klassen und -Interfaces abgerufen werden
+Unser erstes Beispiel (mit Date):
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Seitenkonfiguration - JavaServer Pages - Datum anzeigen</title>
+<BODY BGCOLOR="ffffcc">
+</head>
+<body>
+<CENTER>
+<H2>Datum und Uhrzeit</H2>
+<%	java.util.Date heute = new java.util.Date();
+	out.println("Heute ist: "+ heute);%>
+</CENTER>
+</body>
+</html>
+Danach haben wir eine weitere Datei erstellt, in der holen wir den Parameter und geben aus. Beim Aufrufen der JSP-Datei wird der Inhalt kompiliert. Dann
+werden die JSP zu Servlets. Dieser Vorgang weiderholt sich bei einer erneuten Kompilierung. Auch angeschaut haben wir die Scripting Elemente:
+- Expression
+Format: <%= Java Expression %>
+Beispiel: Zeit: <%= new java.util.Date() %>
+- Sciptlets
+- Deklarationen
+Wie ein Kommentar geht wrude auch erwähnt: Format: <%--JSP Kommentar --%>. Die vordefinierten Variablen haben wir auch angeschaut udn besprochen:
+- request
+- response
+- out
+- session
+- application –Instanz von ServletContext
+- config
+- pageContext -später
+- page –Synonym für „this“
+Am Nachmittag bleibt
